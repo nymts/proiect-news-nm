@@ -1,0 +1,58 @@
+/* FavoritePage.module.css */
+/* FavoritePage.module.css */
+.newsCardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+
+
+
+/* DETAILS */
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px; 
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.detailsContainer * {
+  text-align: left !important;
+}
+
+.fw-bold, .fw-bold p {
+  margin-bottom: 0 !important;
+} 
+
+.detailsContainer a:hover {
+  text-decoration: underline !important;
+}
+
+.imgContainer, .imgContainer img {
+  margin-bottom: 0 !important;
+}
+
+figcaption {
+  font-size: 0.875rem;
+}
+
+.detailsContainer img {
+  max-width: 100%;
+  height: auto; 
+}
+
+.detailsContainer iframe[src*="youtube"] {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}

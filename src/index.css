@@ -1,0 +1,115 @@
+/* Adaugam variabile globale: */
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #2bb686;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+}
+
+/* Resetam proprietati default: */
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 140px;
+  padding-bottom: 48px;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-secondary) !important;
+}
+
+/* Customizam Bootstrap: */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+btn-primary:active {
+  background-color: #2bb686 !important;
+  border-color: #2bb686 !important;
+  font-size: 0.9rem;
+}
+
+.btn-primary:focus {
+  outline: 4px solid #2b96b669 !important;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #2bb686;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.text-dark {
+  color: #2b2922 !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h5,
+p {
+  text-align: center;
+}
+
+.containerLink {
+  color: inherit !important;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 10px;
+  }
+}
+
+.my-5 {
+  margin-bottom: 0 !important;
+  margin-top: 3rem !important;
+}
+
+.homeP {
+  padding-bottom: 3rem !important;
+}
+
+.lastHomeP {
+  padding-top: 2.5rem !important;
+}
+

@@ -1,0 +1,15 @@
+
+.pagination a {
+    color: var(--text-primary) !important;
+  }
+  
+  .pagination a:hover {
+    color: var(--text-primary) !important;
+    background-color: var(--bg-secondary) !important; 
+  }
+  
+  span#paginationActive {
+    background-color: var(--bg-primary)!important;
+    border-color: var(--bg-primary)!important;
+  }
+  
