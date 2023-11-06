@@ -1,12 +1,10 @@
 import React from "react";
 import BootstrapPagination from "react-bootstrap/Pagination";
-import { useNavigate } from "react-router-dom";
 import styles from "./Pagination.module.css";
 
 function Pagination(props) {
   const { currentPage, onPageChange } = props;
 
-  const navigate = useNavigate();
 
   const handlePageClick = (page) => {
     onPageChange(page);
