@@ -40,7 +40,7 @@ The Guardian News App is a web application that utilizes the [Guardian API](http
 - Establishing robust routing for the project with the aid of React Router, ensuring smooth navigation throughout the application.
 - Empowering users with the capability to manage their favorite news articles, allowing them to add or remove articles effortlessly by harnessing the potential of useContext(), useReducer(), and actions.
 - Achieving data persistence, even after refreshing the web browser, thanks to the effective use of the useLocalStorage() hook.
-- Deploying the project on Netlify, skillfully utilizing Node.js and npm for hosting the application, making it accessible to a global audience.
+- Deploying the project on Netlify, utilizing npm for hosting the application, making it accessible to a global audience.
 - Mastering the art of Markdown language, culminating in the creation of a meticulously structured README.md document that encapsulates the project's essence and technical details.
 
 ## Handy Resources
