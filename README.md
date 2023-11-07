@@ -1,11 +1,15 @@
 # Guardian News App
 
+The project is hosted on Netlify. To view the project, click [here](https://proiect-news-nm.netlify.app/).
+
 ## Table of Contents
 - [Screenshots](#screenshots)
 - [Introduction](#introduction)
 - [Functionality and Operation](#functionality-and-operation)
 - [Technologies](#technologies)
 - [Key Takeaways](#key-takeaways)
+- [Handy Resources](#handy-resources)
+- [Gratitude](#gratitude)
 
 ## Screenshots
 | Smartphone screen | Tablet screen | Desktop screen |
@@ -38,3 +42,13 @@ The Guardian News App is a web application that utilizes the [Guardian API](http
 - Achieving data persistence, even after refreshing the web browser, thanks to the effective use of the useLocalStorage() hook.
 - Deploying the project on Netlify, skillfully utilizing Node.js and npm for hosting the application, making it accessible to a global audience.
 - Mastering the art of Markdown language, culminating in the creation of a meticulously structured README.md document that encapsulates the project's essence and technical details.
+
+## Handy Resources
+I found the following resources helpful during this project:
+- IT School mentorship and Web Development course.
+- Guardian API documentation.
+
+## Gratitude
+I would like to express my gratitude to:
+- IT School for providing valuable guidance and education.
+- Mentor: Rosian Mihai for mentorship and support throughout the course.
