@@ -1,4 +1,4 @@
-# Guardian News App
+# News App - IT School
 
 The project is hosted on Netlify. To view the project, click [here](https://proiect-news-nm.netlify.app/).
 
